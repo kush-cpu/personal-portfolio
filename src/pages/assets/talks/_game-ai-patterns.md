@@ -1,0 +1,1 @@
+Exploring modern AI patterns in game development, from behavior trees to machine learning integration. Features practical examples of AI systems in action, optimization techniques, and scalable architecture patterns for complex game worlds.
