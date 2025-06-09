@@ -21,9 +21,9 @@ const projects: ProjectData[] = [
     role: "Maintainer",
   },
   {
-    title: "Mongo Seeding",
-    description: "Ultimate solution for populating MongoDB database.",
-    url: "https://github.com/pkosiec/mongo-seeding",
+    title: "MyGit",
+    description: "A Minimal Git-like Version Control CLI Tool in C++",
+    url: "https://github.com/kush-cpu/mygit",
     image: require(`${assetsDir}/mongo-seeding.png`),
     role: "Author",
   },
