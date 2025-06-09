@@ -4,17 +4,17 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Paweł Kosiec, Full-stack Cloud Developer",
+  title: "Kushagra Nigam, Senior Software Engineer, Game Engine Developer",
   tagline:
-    "Software engineer interested in personal growth and tech trends. Cloud-native and open-source enthusiast.",
-  url: "https://kosiec.dev",
+    "Software engineer interested in low level systems and AI tech trends.",
+  url: "https://kush-cpu.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config
-  organizationName: "pkosiec",
+  organizationName: "kush-cpu",
   projectName: "website",
 
   customFields: {
@@ -55,11 +55,13 @@ const config: Config = {
         docs: false,
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/pkosiec/website/tree/main/",
+          editUrl: "https://github.com/kush-cpu/personal-portfolio/tree/main",
           feedOptions: {
             type: "all",
-            copyright: `Copyright © ${new Date().getFullYear()} Paweł Kosiec`,
+            copyright: `Copyright © ${new Date().getFullYear()} Kushagra Nigam.`,
           },
+          blogSidebarTitle: "All posts",
+          blogSidebarCount: "ALL",
         },
         theme: {
           customCss: [require.resolve("./src/css/custom.scss")],
@@ -74,12 +76,12 @@ const config: Config = {
       {
         name: "description",
         content:
-          "I am software developer interested in technology and gadgets. Cloud-native and open-source enthusiast.",
+          "I am software developer interested in technology and gadgets. Game Technology, AI, and low-level systems are my main interests.",
       },
       {
         name: "keywords",
         content:
-          "fullstack,frontend,backend,developer,engineer,go,golang,javascript,graphql,grpc,rest,react,reactjs,kubernetes,devops,cloud,cloud-native,cka,ckad,open-source,gophers,silesia",
+          "fullstack,frontend,backend,developer,engineer,software,programmer,web,game,technology,AI,artificial intelligence,low level systems",
       },
       {
         name: "twitter:card",
@@ -91,14 +93,15 @@ const config: Config = {
     },
     navbar: {
       hideOnScroll: false,
-      title: "Paweł Kosiec",
+      title: "Kushagra Nigam,",
       logo: {
-        alt: "Paweł Kosiec Logo",
+        alt: "Kushagra Nigam Logo",
         src: "img/logo.svg",
         srcDark: "img/logo-white.svg",
       },
       items: [
         { to: "/projects", label: "Projects", position: "left" },
+        { to: "/blog", label: "Blog", position: "left" },
         { to: "/talks", label: "Talks", position: "left" },
       ],
     },
@@ -114,11 +117,11 @@ const config: Config = {
             },
             {
               label: "LinkedIn",
-              href: "https://www.linkedin.com/in/pkosiec",
+              href: "https://www.linkedin.com/in/kushagra-nigam-a322a6162/",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/pkosiec",
+              href: "https://twitter.com/ironicallykushh",
             },
           ],
         },
@@ -134,18 +137,22 @@ const config: Config = {
               to: "/projects",
             },
             {
+              label: "Blog",
+              to: "/blog",
+            },
+            {
               label: "Talks",
               to: "/talks",
             },
           ],
         },
       ],
-      copyright: `Copyright © 2012-${new Date().getFullYear()} Paweł Kosiec.`,
+      copyright: `Copyright © 2012-${new Date().getFullYear()} Kushagra Nigam.`,
     },
     algolia: {
       appId: "5DLGGOZ8KA",
       apiKey: "67ab853aa6285e51112a649d3cb51928",
-      indexName: "kosiec",
+      indexName: "kush-cpu",
     },
     prism: {
       theme: themes.github,
