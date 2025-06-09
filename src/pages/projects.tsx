@@ -6,17 +6,17 @@ import { Project, ProjectData } from "../components/projects/Project";
 const assetsDir = "./assets/projects";
 const projects: ProjectData[] = [
   {
-    title: "Botkube",
+    title: "FoxTrot",
     description:
-      "Monitor and act on your Kubernetes cluster from your favorite chat platforms.",
-    url: "https://botkube.io/",
+      "A Rust based game engine. Created entirely using Rust & Vulkan.",
+    url: "https://youtu.be/x1UED0Evkjw",
     image: require(`${assetsDir}/botkube.png`),
     role: "Maintainer",
   },
   {
-    title: "Capact",
-    description: "A unified way to manage applications and infrastructure.",
-    url: "https://capact.io",
+    title: "WebBoiler",
+    description: "A webGL based game engine made for Web.",
+    url: "https://im-rises.github.io/physical-engine-webgl/",
     image: require(`${assetsDir}/capact.png`),
     role: "Maintainer",
   },
