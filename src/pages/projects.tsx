@@ -28,11 +28,11 @@ const projects: ProjectData[] = [
     role: "Author",
   },
   {
-    title: "Terminer",
-    description: "Upgrade your terminal experience with a single command.",
-    url: "https://github.com/pkosiec/terminer",
-    image: require(`${assetsDir}/terminer.png`),
-    role: "Author",
+    title: "EA Sports FC 24",
+    description: "A football simulation video game developed by EA Sports.",
+    url: "https://www.ea.com/games/ea-sports-fc/fc-24",
+    image: require(`${assetsDir}/fc-24-logo-alt.png`),
+    role: "Senior Technical Artist",
   },
   {
     title: "Gophers Silesia",
